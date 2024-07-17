@@ -7,7 +7,7 @@ import os
 
 GenDir = r'D:/InletProfileStudy/Generation_of_synthetic_3DIVPs/generic-waveform.xlsx'  # path to generic waveform
 OutDir = r'D:/InletProfileStudy/ReadandScale' # path to save Fourier coefficients for flat IVP
-Name = 'bh_P2'
+Name = 'XX'
 filename = Name+'_coefficient.xlsx'
 filename_csv = Name+'_coefficient_CFX.csv'
 filename2 = Name+'_flowrate.csv'
@@ -18,7 +18,7 @@ filepath3= os.path.join(OutDir, filename3)
 filepath4 = os.path.join(OutDir, filename_csv)
 os.makedirs(OutDir, exist_ok=True)
 Frequency_ratio = 0.83 ############ adjust this value to match RCSD
-Scaling_factor = 3.6 ############### adjust this value to mathc SV (ml)
+Scaling_factor = 3.8 ############### adjust this value to mathc SV (ml)
 SV_ECO = 58
 RCSD_ECG = 0.6
 Tcycle = 0.952
