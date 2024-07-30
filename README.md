@@ -6,7 +6,7 @@ This code is to tune a generic waveform to match patient-specific information. C
  ![alt text](image.png)
 1.  **SV_ECO** and **RCSD_ECG** is replaced with patient-specific values. Here SV is currently estimated from ECO, and RCSD (ratio of cardiac systole and diastole period) is measured from ECG. They can be estimated from other ways as long as it is accurate.
      ![alt text](image-1.png)
-2. Run and follow the instructions to adjust **Frequency_ratio** and **Scaling_factor** untill both SV and RCSD being matched
+2. Run the script and follow the instructions to adjust **Frequency_ratio** and **Scaling_factor** untill both SV and RCSD being matched
  ![alt text](image-2.png)
 For example:
 ![alt text](image-3.png)
