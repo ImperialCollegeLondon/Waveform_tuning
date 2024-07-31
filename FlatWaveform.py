@@ -5,8 +5,8 @@ import sys
 import os
 
 
-GenDir = r'D:/InletProfileStudy/Generation_of_synthetic_3DIVPs/generic-waveform.xlsx'  # path to generic waveform
-OutDir = r'D:/InletProfileStudy/ReadandScale' # path to save Fourier coefficients for flat IVP
+GenDir = r'/generic-waveform.xlsx'  # path to generic waveform
+OutDir = r'/ReadandScale' # path to save Fourier coefficients for flat IVP
 Name = 'XX'
 filename = Name+'_coefficient.xlsx'
 filename_csv = Name+'_coefficient_CFX.csv'
